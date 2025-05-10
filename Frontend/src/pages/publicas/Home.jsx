@@ -1,9 +1,9 @@
 import React from 'react'
-import BodyPrincipal from '../../components/BodyPrincipal'
+import ImagenPrincipal from '../../components/ImagenPrincipal/ImagenPrincipal'
 const Home = () => {
   return (
     <>
-     <BodyPrincipal/>
+     <ImagenPrincipal/>
     </>
   )
 }

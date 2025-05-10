@@ -1,7 +1,7 @@
 import React from "react";
-import fondo from "../assets/fondo.jpg";
+import fondo from "../../assets/fondo.jpg"; // Asegúrate de que la ruta sea correcta
 
-const BodyPrincipal = () => {
+const ImagenPrincipal = () => {
   const sectionStyle = {
     backgroundImage: `url(${fondo})`,
     backgroundSize: "cover",
@@ -64,4 +64,4 @@ const BodyPrincipal = () => {
   );
 };
 
-export default BodyPrincipal;
+export default ImagenPrincipal;
