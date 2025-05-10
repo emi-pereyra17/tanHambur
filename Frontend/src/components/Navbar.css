@@ -1,0 +1,23 @@
+/* Efecto hover en los enlaces */
+.navbar .nav-hover {
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .navbar .nav-hover:hover {
+    color: #ff5722 !important; /* Asegúrate de que este color se aplique */
+  }
+  
+  /* Sombra en el navbar */
+  .navbar {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1) !important;
+  }
+  
+  /* Efecto hover en el botón */
+  .navbar .btn-hover {
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  }
+  
+  .navbar .btn-hover:hover {
+    background-color: #464846 !important; /* Cambia el color de fondo */
+    color: white !important; /* Cambia el color del texto */
+  }
